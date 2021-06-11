@@ -1,0 +1,15 @@
+{
+  "name": "trial",
+  "displayName": "trial",
+  "expo": {
+    "name": "ChatApp",
+    "slug": "ChatApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.trial",
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true
+    }
+  }
+}

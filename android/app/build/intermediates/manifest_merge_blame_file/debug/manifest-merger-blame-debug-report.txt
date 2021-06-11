@@ -1,0 +1,474 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.trial"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:7:3-75
+11-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:7:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:3:3-64
+12-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:3:20-62
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:4:3-62
+13-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:4:20-60
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:5:3-78
+14-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:5:20-76
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:8:3-72
+15-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:8:20-70
+16    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+16-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:9:3-71
+16-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:9:20-69
+17    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+17-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:10:3-69
+17-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:10:20-67
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:11:3-63
+18-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:11:20-61
+19    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- These require runtime permissions on M -->
+19-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:12:3-77
+19-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:12:20-75
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:14:3-78
+20-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:14:20-76
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:15:3-76
+21-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:15:20-74
+22    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+22-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:16:3-82
+22-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:16:20-80
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:4:3-62
+23-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:4:20-60
+24    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+24-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:18:3-68
+24-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:18:20-66
+25    <uses-permission android:name="android.permission.READ_CONTACTS" />
+25-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:19:3-69
+25-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:19:20-67
+26    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+26-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:20:3-70
+26-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:20:20-68
+27    <uses-permission android:name="android.permission.READ_CALENDAR" />
+27-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:21:3-69
+27-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:21:20-67
+28    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+28-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:22:3-70
+28-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:22:20-68
+29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:23:3-77
+29-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:23:20-75
+30    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+30-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:5:3-78
+30-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:5:20-76
+31    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+31-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:25:3-70
+31-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:25:20-68
+32    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+32-->[com.facebook.flipper:flipper:0.54.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\be45fac050b9ae684eeb04f5c76e7a1a\flipper-0.54.0\AndroidManifest.xml:16:5-76
+32-->[com.facebook.flipper:flipper:0.54.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\be45fac050b9ae684eeb04f5c76e7a1a\flipper-0.54.0\AndroidManifest.xml:16:22-73
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+33-->[:expo-updates] D:\React Native\trial\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+33-->[:expo-updates] D:\React Native\trial\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+34-->[:expo-location] D:\React Native\trial\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
+34-->[:expo-location] D:\React Native\trial\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-74
+35    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+35-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+35-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-78
+36    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+36-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1e98867d994b37e460a9fb668ea030e4\firebase-iid-20.2.3\AndroidManifest.xml:24:5-68
+36-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1e98867d994b37e460a9fb668ea030e4\firebase-iid-20.2.3\AndroidManifest.xml:24:22-65
+37    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+37-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1e98867d994b37e460a9fb668ea030e4\firebase-iid-20.2.3\AndroidManifest.xml:26:5-82
+37-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1e98867d994b37e460a9fb668ea030e4\firebase-iid-20.2.3\AndroidManifest.xml:26:22-79
+38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+38-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f33049eb3c8e33496207d089c0520103\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+38-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f33049eb3c8e33496207d089c0520103\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+39    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+39-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0f4ff6777c3989a4e969d20e8b32542f\jetified-library-3.2.11\AndroidManifest.xml:15:5-98
+39-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0f4ff6777c3989a4e969d20e8b32542f\jetified-library-3.2.11\AndroidManifest.xml:15:22-95
+40    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" /> <!-- for android -->
+40-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0f4ff6777c3989a4e969d20e8b32542f\jetified-library-3.2.11\AndroidManifest.xml:16:5-94
+40-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0f4ff6777c3989a4e969d20e8b32542f\jetified-library-3.2.11\AndroidManifest.xml:16:22-91
+41    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+42    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+43    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+44    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+45    <!-- for Samsung -->
+46    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+47    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+48    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+49    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+50    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+51    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+52    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+53    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+54    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+55    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+56    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+57    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+58    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+59    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+60    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+61    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4840f8b67b45e960507cf4f0491850a3\ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+62
+63    <application
+63-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:27:3-51:17
+64        android:name="com.trial.MainApplication"
+64-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:28:5-36
+65        android:allowBackup="false"
+65-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:32:5-32
+66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+66-->[androidx.core:core:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\182847ddb058a3a1830372083cf5eba1\core-1.3.0\AndroidManifest.xml:24:18-86
+67        android:debuggable="true"
+68        android:icon="@mipmap/ic_launcher"
+68-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:30:5-39
+69        android:label="@string/app_name"
+69-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:29:5-37
+70        android:roundIcon="@mipmap/ic_launcher"
+70-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:31:5-44
+71        android:theme="@style/AppTheme"
+71-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:33:5-36
+72        android:usesCleartextTraffic="true" >
+72-->D:\React Native\trial\android\app\src\debug\AndroidManifest.xml:6:18-53
+73        <meta-data
+73-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:35:5-103
+74            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+74-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:35:16-67
+75            android:value="YOUR-APP-URL-HERE" />
+75-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:35:68-101
+76        <meta-data
+76-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:36:5-112
+77            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+77-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:36:16-68
+78            android:value="YOUR-APP-SDK-VERSION-HERE" />
+78-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:36:69-110
+79
+80        <activity
+80-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:37:5-49:16
+81            android:name="com.trial.MainActivity"
+81-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:38:7-35
+82            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+82-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:40:7-84
+83            android:label="@string/app_name"
+83-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:39:7-39
+84            android:launchMode="singleTask"
+84-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:41:7-38
+85            android:theme="@style/Theme.App.SplashScreen"
+85-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:43:7-52
+86            android:windowSoftInputMode="adjustResize" >
+86-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:42:7-49
+87            <intent-filter>
+87-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:45:7-48:23
+88                <action android:name="android.intent.action.MAIN" />
+88-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:46:9-60
+88-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:46:17-58
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:47:9-68
+90-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:47:19-66
+91            </intent-filter>
+92        </activity>
+93        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+93-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:50:5-81
+93-->D:\React Native\trial\android\app\src\main\AndroidManifest.xml:50:15-79
+94
+95        <meta-data
+95-->[:unimodules-react-native-adapter] D:\React Native\trial\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:91
+96            android:name="org.unimodules.core.AppLoader#react-native-headless"
+96-->[:unimodules-react-native-adapter] D:\React Native\trial\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-79
+97            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+97-->[:unimodules-react-native-adapter] D:\React Native\trial\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+98
+99        <provider
+99-->[:react-native-image-picker] D:\React Native\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
+100            android:name="com.imagepicker.FileProvider"
+100-->[:react-native-image-picker] D:\React Native\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
+101            android:authorities="com.trial.provider"
+101-->[:react-native-image-picker] D:\React Native\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
+102            android:exported="false"
+102-->[:react-native-image-picker] D:\React Native\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+103            android:grantUriPermissions="true" >
+103-->[:react-native-image-picker] D:\React Native\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
+104            <meta-data
+104-->[:react-native-image-picker] D:\React Native\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:58
+105                android:name="android.support.FILE_PROVIDER_PATHS"
+105-->[:react-native-image-picker] D:\React Native\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
+106                android:resource="@xml/provider_paths" />
+106-->[:react-native-image-picker] D:\React Native\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
+107        </provider>
+108        <provider
+108-->[:expo-file-system] D:\React Native\trial\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-26:20
+109            android:name="expo.modules.filesystem.FileSystemFileProvider"
+109-->[:expo-file-system] D:\React Native\trial\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-74
+110            android:authorities="com.trial.FileSystemFileProvider"
+110-->[:expo-file-system] D:\React Native\trial\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+111            android:exported="false"
+111-->[:expo-file-system] D:\React Native\trial\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-37
+112            android:grantUriPermissions="true" >
+112-->[:expo-file-system] D:\React Native\trial\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-47
+113            <meta-data
+113-->[:react-native-image-picker] D:\React Native\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:58
+114                android:name="android.support.FILE_PROVIDER_PATHS"
+114-->[:react-native-image-picker] D:\React Native\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
+115                android:resource="@xml/file_system_provider_paths" />
+115-->[:react-native-image-picker] D:\React Native\trial\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
+116        </provider>
+117
+118        <service
+118-->[:expo-location] D:\React Native\trial\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:40
+119            android:name="expo.modules.location.services.LocationTaskService"
+119-->[:expo-location] D:\React Native\trial\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
+120            android:exported="false" />
+120-->[:expo-location] D:\React Native\trial\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+121        <service
+121-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-20:19
+122            android:name="expo.modules.notifications.service.ExpoFirebaseMessagingService"
+122-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-91
+123            android:exported="false" >
+123-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-37
+124            <intent-filter android:priority="-1" >
+124-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:29
+124-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:28-49
+125                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+125-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-78
+125-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:25-75
+126            </intent-filter>
+127        </service>
+128
+129        <receiver
+129-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-34:20
+130            android:name="expo.modules.notifications.service.NotificationsService"
+130-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-83
+131            android:enabled="true"
+131-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-35
+132            android:exported="false" >
+132-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-37
+133            <intent-filter android:priority="-1" >
+133-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-33:29
+133-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:28-49
+134                <action android:name="expo.modules.notifications.NOTIFICATION_EVENT" />
+134-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:17-88
+134-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:25-85
+135                <action android:name="android.intent.action.BOOT_COMPLETED" />
+135-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:17-79
+135-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:25-76
+136                <action android:name="android.intent.action.REBOOT" />
+136-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-71
+136-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-68
+137                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+137-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:17-82
+137-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:25-79
+138                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+138-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:17-82
+138-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:25-79
+139                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+139-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-84
+139-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:25-81
+140            </intent-filter>
+141        </receiver>
+142        <!--
+143             FirebaseMessagingService performs security checks at runtime,
+144             but set to not exported to explicitly avoid allowing another app to call it.
+145        -->
+146        <service
+146-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1bed82125497943435587dbe7f742c36\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:28:9-35:19
+147            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+147-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1bed82125497943435587dbe7f742c36\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:29:13-82
+148            android:directBootAware="true"
+148-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1bed82125497943435587dbe7f742c36\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:30:13-43
+149            android:exported="false" >
+149-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1bed82125497943435587dbe7f742c36\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:31:13-37
+150            <intent-filter android:priority="-500" >
+150-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:29
+150-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:28-49
+151                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+151-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-78
+151-->[:expo-notifications] D:\React Native\trial\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:25-75
+152            </intent-filter>
+153        </service>
+154        <service
+154-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1bed82125497943435587dbe7f742c36\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:36:9-42:19
+155            android:name="com.google.firebase.components.ComponentDiscoveryService"
+155-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1bed82125497943435587dbe7f742c36\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:37:13-84
+156            android:directBootAware="true"
+156-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\bbbc720ee0b72e13b932c7ced155b29d\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+157            android:exported="false" >
+157-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1bed82125497943435587dbe7f742c36\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:38:13-37
+158            <meta-data
+158-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1bed82125497943435587dbe7f742c36\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:39:13-41:85
+159                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+159-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1bed82125497943435587dbe7f742c36\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:40:17-119
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1bed82125497943435587dbe7f742c36\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:41:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\60c543d9a1de1a147a98d3d70cd1dca1\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+162                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+162-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\60c543d9a1de1a147a98d3d70cd1dca1\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\60c543d9a1de1a147a98d3d70cd1dca1\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1e98867d994b37e460a9fb668ea030e4\firebase-iid-20.2.3\AndroidManifest.xml:32:13-34:85
+165                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+165-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1e98867d994b37e460a9fb668ea030e4\firebase-iid-20.2.3\AndroidManifest.xml:33:17-96
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1e98867d994b37e460a9fb668ea030e4\firebase-iid-20.2.3\AndroidManifest.xml:34:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\12bd8c2e9708dc970145be8f12d4c257\firebase-installations-16.3.3\AndroidManifest.xml:17:13-19:85
+168                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+168-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\12bd8c2e9708dc970145be8f12d4c257\firebase-installations-16.3.3\AndroidManifest.xml:18:17-127
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\12bd8c2e9708dc970145be8f12d4c257\firebase-installations-16.3.3\AndroidManifest.xml:19:17-82
+170        </service>
+171        <service
+171-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\d53fae9da1c588cdcbf41a60069c6132\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+172            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+172-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\d53fae9da1c588cdcbf41a60069c6132\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+173            android:exported="false" >
+173-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\d53fae9da1c588cdcbf41a60069c6132\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+174            <meta-data
+174-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\d53fae9da1c588cdcbf41a60069c6132\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+175                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+175-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\d53fae9da1c588cdcbf41a60069c6132\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+176                android:value="cct" />
+176-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\d53fae9da1c588cdcbf41a60069c6132\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+177        </service>
+178        <service
+178-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8db71ec02bda6d922a2b45066153424a\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+179            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+179-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8db71ec02bda6d922a2b45066153424a\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+180            android:exported="false"
+180-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8db71ec02bda6d922a2b45066153424a\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+181            android:permission="android.permission.BIND_JOB_SERVICE" >
+181-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8db71ec02bda6d922a2b45066153424a\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+182        </service>
+183
+184        <receiver
+184-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8db71ec02bda6d922a2b45066153424a\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+185            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+185-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8db71ec02bda6d922a2b45066153424a\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+186            android:exported="false" />
+186-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8db71ec02bda6d922a2b45066153424a\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+187
+188        <provider
+188-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\ba002933c4030d71df460d0cc3ba5df3\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+189            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+189-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\ba002933c4030d71df460d0cc3ba5df3\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+190            android:authorities="com.trial.lifecycle-process"
+190-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\ba002933c4030d71df460d0cc3ba5df3\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+191            android:exported="false"
+191-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\ba002933c4030d71df460d0cc3ba5df3\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+192            android:multiprocess="true" />
+192-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\ba002933c4030d71df460d0cc3ba5df3\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+193
+194        <service
+194-->[androidx.room:room-runtime:2.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f054f7de10c821b70a425f988439d5ed\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+195            android:name="androidx.room.MultiInstanceInvalidationService"
+195-->[androidx.room:room-runtime:2.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f054f7de10c821b70a425f988439d5ed\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+196            android:exported="false" />
+196-->[androidx.room:room-runtime:2.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f054f7de10c821b70a425f988439d5ed\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+197
+198        <receiver
+198-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1e98867d994b37e460a9fb668ea030e4\firebase-iid-20.2.3\AndroidManifest.xml:37:9-44:20
+199            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+199-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1e98867d994b37e460a9fb668ea030e4\firebase-iid-20.2.3\AndroidManifest.xml:38:13-78
+200            android:exported="true"
+200-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1e98867d994b37e460a9fb668ea030e4\firebase-iid-20.2.3\AndroidManifest.xml:39:13-36
+201            android:permission="com.google.android.c2dm.permission.SEND" >
+201-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1e98867d994b37e460a9fb668ea030e4\firebase-iid-20.2.3\AndroidManifest.xml:40:13-73
+202            <intent-filter>
+202-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1e98867d994b37e460a9fb668ea030e4\firebase-iid-20.2.3\AndroidManifest.xml:41:13-43:29
+203                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+203-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1e98867d994b37e460a9fb668ea030e4\firebase-iid-20.2.3\AndroidManifest.xml:42:17-81
+203-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1e98867d994b37e460a9fb668ea030e4\firebase-iid-20.2.3\AndroidManifest.xml:42:25-78
+204            </intent-filter>
+205        </receiver>
+206
+207        <provider
+207-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\bbbc720ee0b72e13b932c7ced155b29d\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+208            android:name="com.google.firebase.provider.FirebaseInitProvider"
+208-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\bbbc720ee0b72e13b932c7ced155b29d\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+209            android:authorities="com.trial.firebaseinitprovider"
+209-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\bbbc720ee0b72e13b932c7ced155b29d\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+210            android:exported="false"
+210-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\bbbc720ee0b72e13b932c7ced155b29d\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+211            android:initOrder="100" />
+211-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\bbbc720ee0b72e13b932c7ced155b29d\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+212
+213        <activity
+213-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5440b6ebd07a59f499dac1e600f69473\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+214            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+214-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5440b6ebd07a59f499dac1e600f69473\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+215            android:exported="false"
+215-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5440b6ebd07a59f499dac1e600f69473\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+216            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+216-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5440b6ebd07a59f499dac1e600f69473\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+217
+218        <meta-data
+218-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\bf79c0292c7ff98fa6b2098b917d2204\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+219            android:name="com.google.android.gms.version"
+219-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\bf79c0292c7ff98fa6b2098b917d2204\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+220            android:value="@integer/google_play_services_version" />
+220-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\bf79c0292c7ff98fa6b2098b917d2204\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+221
+222        <service
+222-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0f4ff6777c3989a4e969d20e8b32542f\jetified-library-3.2.11\AndroidManifest.xml:19:9-21:40
+223            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+223-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0f4ff6777c3989a4e969d20e8b32542f\jetified-library-3.2.11\AndroidManifest.xml:20:13-132
+224            android:exported="false" />
+224-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0f4ff6777c3989a4e969d20e8b32542f\jetified-library-3.2.11\AndroidManifest.xml:21:13-37
+225        <service
+225-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0f4ff6777c3989a4e969d20e8b32542f\jetified-library-3.2.11\AndroidManifest.xml:22:9-24:40
+226            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+226-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0f4ff6777c3989a4e969d20e8b32542f\jetified-library-3.2.11\AndroidManifest.xml:23:13-127
+227            android:exported="false" />
+227-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0f4ff6777c3989a4e969d20e8b32542f\jetified-library-3.2.11\AndroidManifest.xml:24:13-37
+228        <service
+228-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0f4ff6777c3989a4e969d20e8b32542f\jetified-library-3.2.11\AndroidManifest.xml:25:9-27:40
+229            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+229-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0f4ff6777c3989a4e969d20e8b32542f\jetified-library-3.2.11\AndroidManifest.xml:26:13-120
+230            android:exported="false" />
+230-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0f4ff6777c3989a4e969d20e8b32542f\jetified-library-3.2.11\AndroidManifest.xml:27:13-37
+231    </application>
+232
+233</manifest>
